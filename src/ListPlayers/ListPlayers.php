@@ -28,7 +28,7 @@ class ListPlayers extends PluginBase implements Listener{
     }
     public function MessageSent(MessageSent $event){
         $discordbot = $this->getServer()->getPluginManager()->getPlugin("DiscordBot");
-        $api = $discordbot->getApi();
+        $api = $discordbot->Api();
         $message = $event->getMessage();
         $content = $message->getContent();
         $channel_id = $message->getChannelId();
