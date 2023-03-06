@@ -17,6 +17,7 @@ use JaxkDev\DiscordBot\Plugin\Main;
 
 use pocketmine\event\Listener;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 
